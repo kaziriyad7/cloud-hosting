@@ -47,6 +47,7 @@
     }
     .logo{
         cursor: pointer;
+        font-size: 30px;
     }
     .navbar{
         background-color: rgb(26, 29, 223);
@@ -60,6 +61,7 @@
         color: white;
         padding: 10px;
         max-resolution: 0 5px;
+        font-size: 20px;
     }
     .navbar a:hover{
         border-bottom: 2px #fff solid;
