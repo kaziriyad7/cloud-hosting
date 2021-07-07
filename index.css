@@ -68,9 +68,11 @@ img {
   max-resolution: 0 5px;
   font-size: 20px;
 }
+
 .navbar a:hover {
   border-bottom: 2px #fff solid;
 }
+
 .navbar .flex {
   justify-content: space-between;
 }
@@ -82,9 +84,11 @@ img {
   color: #fff;
   position: relative;
 }
+
 .showcase h1 {
   font-size: 40px;
 }
+
 .showcase p {
   margin: 20px 0;
 }
@@ -94,6 +98,7 @@ img {
   gap: 30px;
   overflow: visible;
 }
+
 .showcase-form {
   position: relative;
   top: 60px;
@@ -102,9 +107,11 @@ img {
   padding: 40px;
   z-index: 100;
 }
+
 .showcase-form .form-control {
   margin: 30px 0;
 }
+
 .btn {
   background-color: rgb(34, 226, 60);
   padding: 10px 30px;
@@ -146,15 +153,18 @@ img {
 .stats .grid h3 {
   font-size: 35px;
 }
+
 .stats .grid p {
   font-size: 20px;
   font-weight: 700;
 }
 /* cli */
+
 .cli .grid{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
 }
+
 .cli .grid > *:first-child{
     grid-column: 1/span 2;
     grid-row: 1/ span 2;
@@ -163,4 +173,22 @@ img {
 /* cloud */
 .cloud .grid{
     grid-template-columns: 4fr 1f;
+}
+
+/* languages */
+/* .languages .flex{
+    flex-wrap: wrap;
+} */
+.languages .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+}
+
+.languages .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages .card:hover{ 
+    transform: translateY(-15px);
 }
