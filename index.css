@@ -176,6 +176,14 @@ img {
 }
 
 /* languages */
+.card-image {
+  height: 100px;
+  width: 100px;
+}
+.card-image img {
+  height: 70px;
+  width: 50;
+}
 /* .languages .flex{
     flex-wrap: wrap;
 } */
@@ -230,8 +238,8 @@ img {
     }
 
     .languages .flex{
-        flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+}
 }
 
 /* mobile */
