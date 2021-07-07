@@ -14,6 +14,8 @@
 }
 .btn:hover {
   transform: scale(0.98);
+  background-color: #333;
+  color: white;
 }
 .text-center {
   text-align: center;
